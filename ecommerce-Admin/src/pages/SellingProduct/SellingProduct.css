@@ -1,0 +1,21 @@
+.sell-products{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.img-dummy{
+    display: flex;
+    gap: 16px;
+    
+}
+.rate-dummy{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.item-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

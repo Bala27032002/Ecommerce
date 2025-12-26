@@ -1,0 +1,136 @@
+.admin-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background: #fff;
+  
+}
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-section h3 {
+  margin: 0;
+  font-weight: 600;
+  width: 251px;
+  
+}
+
+
+.back-section img {
+  cursor: pointer;
+}
+
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.icon {
+  cursor: pointer;
+}
+
+
+.user-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #f5f5f5;
+}
+
+.user-box img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+
+.user-text {
+  line-height: 1.2;
+}
+
+.user-text .name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.user-text .role {
+  font-size: 12px;
+  color: #777;
+}
+.dashboard-items{
+    padding: 12px 24px;
+}
+
+.items-list img{
+    height: 24px;
+    width: 24px;
+}
+.img-home{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.todays-sale{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.dashboard-items {
+  display: flex;
+  width: 100%;
+  
+}
+
+
+.items-list {
+  width: 251px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.dashboard-content {
+  flex: 1;     
+  background-color: aliceblue;   
+  padding: 12px 24px;        
+ 
+}
+
+
+.dashboard-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.today-sales{
+  display: flex;
+  justify-content: space-between;
+}
+.sales-today{
+  background-color: white;
+  width: 375px;
+  height: 99px;
+  padding: 24px 24px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.sale-name{
+  display: flex;
+    flex-direction: column;
+    gap: 20px
+}
