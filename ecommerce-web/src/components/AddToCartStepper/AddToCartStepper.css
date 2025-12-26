@@ -1,0 +1,80 @@
+.add-stepper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(97, 173, 78, 1);
+  background: rgba(245, 251, 244, 1);
+  border-radius: 10px;
+  height: 35px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.add-stepper--icon {
+  width: 96px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(97, 173, 78, 0.35);
+  background: rgba(245, 251, 244, 1);
+}
+
+.add-stepper--button {
+  width: 100%;
+}
+
+.add-stepper-btn {
+  width: 32px;
+  height: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgba(97, 173, 78, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-stepper-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.add-stepper-qty {
+  min-width: 26px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(30, 30, 30, 1);
+}
+
+.add-stepper--wishlist {
+  height: 45px;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #27AE60;
+}
+
+.add-stepper--wishlist .add-stepper-btn {
+  color: #27AE60;
+}
+
+@media (max-width: 480px) {
+  .add-stepper {
+    height: 34px;
+  }
+
+  .add-stepper--icon {
+    width: 92px;
+  }
+
+  .add-stepper-btn {
+    width: 30px;
+    font-size: 17px;
+  }
+
+  .add-stepper-qty {
+    min-width: 24px;
+  }
+}

@@ -1,0 +1,372 @@
+.delivery-login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.delivery-login-container {
+  width: 100%;
+  max-width: 527px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery-login-logo-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.delivery-login-logo {
+  height: 60px;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+.delivery-welcome-text {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.delivery-login-content {
+  width: 100%;
+}
+
+.delivery-login-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 25px 0;
+  line-height: 1.3;
+}
+
+.delivery-login-form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.delivery-form-group {
+  margin-bottom: 18px;
+}
+
+.delivery-form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4B5563;
+  margin-bottom: 8px;
+}
+
+.delivery-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.delivery-input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.delivery-input-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.delivery-form-input {
+  width: 100%;
+  padding: 12px 15px 12px 45px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  height: 46px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.delivery-form-input::placeholder {
+  color: #999;
+}
+
+.delivery-form-input:focus {
+  border-color: #22C55E;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.1);
+}
+
+.delivery-form-input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.delivery-input-right-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.delivery-img-eye {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.delivery-form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 13px;
+  gap: 15px;
+}
+
+.delivery-remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #4B5563;
+  cursor: pointer;
+  user-select: none;
+}
+
+.delivery-remember-me input {
+  width: 16px;
+  height: 16px;
+  accent-color: #22C55E;
+  cursor: pointer;
+}
+
+.delivery-forgot-password {
+  color: #22C55E;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.delivery-forgot-password:hover {
+  color: #16a34a;
+}
+
+.delivery-login-btn {
+  width: 100%;
+  padding: 12px;
+  background: radial-gradient(50% 50% at 50% 50%, #27AE60 0%, #008337 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery-login-btn:hover:not(:disabled) {
+  opacity: 0.95;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+}
+
+.delivery-login-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.delivery-login-with {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.delivery-login-with img {
+  max-width: 100%;
+  height: auto;
+}
+
+.delivery-g-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.delivery-button-g {
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #E8E9EA;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+.delivery-button-g:hover {
+  background: #f9f9f9;
+  border-color: #ddd;
+}
+
+.delivery-social-img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.delivery-terms-services {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.delivery-terms-condition {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.delivery-terms-condition b {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+  .delivery-login-wrapper {
+    padding: 15px;
+  }
+
+  .delivery-login-container {
+    max-width: 100%;
+  }
+
+  .delivery-login-title {
+    font-size: 24px;
+  }
+
+  .delivery-login-logo {
+    height: 50px;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .delivery-login-wrapper {
+    padding: 12px;
+    min-height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .delivery-login-container {
+    max-width: 100%;
+  }
+
+  .delivery-login-logo-section {
+    margin-bottom: 20px;
+  }
+
+  .delivery-login-logo {
+    height: 45px;
+    margin-bottom: 10px;
+  }
+
+  .delivery-welcome-text {
+    font-size: 12px;
+  }
+
+  .delivery-login-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .delivery-form-group {
+    margin-bottom: 15px;
+  }
+
+  .delivery-form-label {
+    font-size: 13px;
+  }
+
+  .delivery-form-input {
+    font-size: 13px;
+    padding: 10px 12px 10px 40px;
+    height: 44px;
+  }
+
+  .delivery-login-btn {
+    font-size: 14px;
+    padding: 10px;
+    height: 44px;
+    margin-top: 15px;
+  }
+
+  .delivery-form-footer {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .delivery-login-with {
+    margin: 15px 0;
+  }
+
+  .delivery-g-icons {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .delivery-button-g {
+    padding: 10px 12px;
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .delivery-social-img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .delivery-terms-services {
+    margin-top: 12px;
+  }
+
+  .delivery-terms-condition {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}

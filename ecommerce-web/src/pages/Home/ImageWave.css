@@ -1,0 +1,26 @@
+.wave-wrapper {
+  width: 230px;
+  height: 120px;          /* 🔥 height kammi panniten */
+  display: flex;
+  overflow: hidden;
+}
+
+.wave-segment {
+  flex: 1;
+  background-image: url("../../assets/Home-icons/BigSale.svg");
+  background-size: 230px 120px;   /* 🔥 height match pannanum */
+  background-repeat: no-repeat;
+  animation: wave 1.3s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* 🔥 wave height kammi */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
